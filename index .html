@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Landing Page</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+
+</head>
+<body>
+
+    <!-- navigation bar -->
+    <nav class="navbar">
+        <img src="logo (1).png" alt="logo" id="logo">
+        
+        <!-- menu -->
+        <ul id="menu">
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+            
+            <li><a onmouseover="hover(this)" onmouseout="noHover(this)" onclick="myHome(this)">Home</a></li>
+            <li><a onmouseover="hover(this)" onmouseout="noHover(this)" onclick="myAbout(this)">About</a></li>
+            <li><a onmouseover="hover(this)" onmouseout="noHover(this)" onclick="myServices(this)">Services</a></li>
+            <li><a onmouseover="hover(this)" onmouseout="noHover(this)" onclick="myContact(this)">Contact</a></li>
+        </ul>
+
+        <span class="openbtn" onclick="openNav()">&#9776;</span>
+    </nav>
+
+
+    <!-- home -->
+    <section id="home">
+        <p class="para">"Discover a world of style at your fingertips. Shop the latest trends and timeless classics with us."
+            "Elevate your wardrobe with our curated collection of fashion-forward pieces. Unleash your inner style icon."
+            "Indulge in a seamless shopping experience. Find fashion that speaks to your individuality, only a click away."
+            "Transform your look effortlessly. Explore our diverse catalog of chic and affordable fashion for every occasion."
+            "Welcome to your one-stop fashion destination. Explore, shop, and redefine your style with us."
+            "From runway to reality, we bring you the latest in fashion. Elevate your closet with our handpicked selections."
+            "Unleash the fashionista in you. Dive into our collection and let your style shine through."
+            "Quality meets style in every stitch. Explore our premium selection and redefine your fashion experience."
+            "Shop with confidence. Our carefully curated collection ensures you stay on trend, always."
+            "Fashion finds a new address here. Discover, shop, and reinvent your wardrobe with our latest arrivals."
+            "Your style journey begins here. Explore our virtual aisles and make a statement with every purchase."
+            "Fashion-forward choices for the trendsetter in you. Upgrade your wardrobe and embrace your unique style."
+            "Browse, click, and slay. Elevate your fashion game with our handpicked selection of must-have items."
+            "Dress your dreams in reality. Shop the looks you love and step into a world of endless fashion possibilities."
+            "More than a shopping spree, it's a style celebration. Discover the joy of fashion with our curated collection."
+            "Fashion that fits your vibe, delivered to your doorstep. Embrace the ease of online shopping with us."
+            "Revolutionize your wardrobe without leaving your comfort zone. Shop effortlessly from the convenience of your screen."
+            "Where fashion meets convenience. Explore our user-friendly platform and upgrade your closet in just a few clicks."
+            "Stay ahead of the curve. Shop the latest styles and timeless classics – your go-to destination for all things chic."
+            "Unwrap the joy of fashion delivered. Dive into our collection and let your closet tell the story of your impeccable taste."</p>
+    </section>
+
+
+    <!-- about -->
+    <section id="about">
+        <h1 class="heading">About</h1>
+        <p class="para">"Discover a world of style at your fingertips. Shop the latest trends and timeless classics with us."
+            "Elevate your wardrobe with our curated collection of fashion-forward pieces. Unleash your inner style icon."
+            "Indulge in a seamless shopping experience. Find fashion that speaks to your individuality, only a click away."
+            "Transform your look effortlessly. Explore our diverse catalog of chic and affordable fashion for every occasion."
+            "Welcome to your one-stop fashion destination. Explore, shop, and redefine your style with us."
+            "From runway to reality, we bring you the latest in fashion. Elevate your closet with our handpicked selections."
+            "Unleash the fashionista in you. Dive into our collection and let your style shine through."
+            "Quality meets style in every stitch. Explore our premium selection and redefine your fashion experience."
+            "Shop with confidence. Our carefully curated collection ensures you stay on trend, always."
+            "Fashion finds a new address here. Discover, shop, and reinvent your wardrobe with our latest arrivals."
+            "Your style journey begins here. Explore our virtual aisles and make a statement with every purchase."
+            "Fashion-forward choices for the trendsetter in you. Upgrade your wardrobe and embrace your unique style."
+            "Browse, click, and slay. Elevate your fashion game with our handpicked selection of must-have items."
+            "Dress your dreams in reality. Shop the looks you love and step into a world of endless fashion possibilities."
+            "More than a shopping spree, it's a style celebration. Discover the joy of fashion with our curated collection."
+            "Fashion that fits your vibe, delivered to your doorstep. Embrace the ease of online shopping with us."
+            "Revolutionize your wardrobe without leaving your comfort zone. Shop effortlessly from the convenience of your screen."
+            "Where fashion meets convenience. Explore our user-friendly platform and upgrade your closet in just a few clicks."
+            "Stay ahead of the curve. Shop the latest styles and timeless classics – your go-to destination for all things chic."
+            "Unwrap the joy of fashion delivered. Dive into our collection and let your closet tell the story of your impeccable taste."</p>
+    </section>
+
+
+    <!-- services -->
+    <section id="services">
+        <h1 class="heading">Services</h1>
+        <ul id="service">
+            <li>Lorem ipsum dolor sit amet, consectetur adipisicing.</li>
+            <li>Lorem ipsum dolor sit amet, consectetur adipisicing.</li>
+            <li>Lorem ipsum dolor sit amet, consectetur adipisicing.</li>
+            <li>Lorem ipsum dolor sit amet, consectetur adipisicing.</li>
+            <li>Lorem ipsum dolor sit amet, consectetur adipisicing.</li>
+        </ul>
+    </section>
+    
+
+    <!-- contact -->
+    <section id="contact">
+        <h1 class="heading">Get in touch</h1>
+
+        <ul>
+            <li><a href="malito:abc123@gmail.com" id="mail" onmouseover="mailOver(this)" onmouseout="mailOut(this)">Send Email</a></li>
+            <li><img src="phone-solid.svg" alt="phone" height="15" style="margin-right: 5px;"> +45272582</li>
+            <li><img src="location-dot-solid.svg" alt="location" height="16" style="margin-right: 5px;">86 adgs, Gorakhpur, India</li>
+        </ul>
+    </section>
+
+    <footer>
+        <p id="center">&copy; 2023 Gorakhpur India</p>
+    </footer>
+
+    <script src="/script.js"></script>
+</body>
+</html>
